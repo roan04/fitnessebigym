@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=EB+Garamond:ital@1&family=Roboto:ital,wght@1,300&display=swap") ;
+
+
+.banner {
+  background-image: linear-gradient(92deg , rgba( 0,0,0,0.5)0% ,rgba( 0,0,0,0.8)50%), url(../images/pic.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white ;
+  padding: 200px ;
+}
+
+.banner h1 {
+  font-size: 60px;
+}
+
+.banner h2{
+  font-weight: bold;
+  opacity: 0.7;
+  margin-bottom: 60px;
+}
+
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+
+
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	margin: 0px ;
+	background-color: #010101 ;
+}
+
+h1{
+	font-family: 'Bebas Neue', cursive;
+	color: white ;
+	font-size: 60px
+}
+
+p{
+	font-size: 30px ;
+}
+
+
+.card a{
+  font-family: 'Bebas Neue', cursive;
+  color: white ;
+  font-size: 34px;
+
+}
+
+
+
+
+
+.fab fa-facebook-square {
+	color: white ;
+  text-decoration: none ;
+}
+
+.fab fa-instagram-square{
+	color: white ;
+  text-decoration: none ;
+}
+
+
+
+
+.button {
+  background-color:  #EF7E71 ;
+  padding: 15px 20px;
+  border: 10px;
+  color: white ;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none ;
+  
+  
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.card img{
+  width: 279px; 
+}
+
+.card h1 {
+  font-family: 'Bebas Neue', cursive;
+    color: white;
+    font-size: 30px;
+
+}
+
+.card{
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: inherit;
+    padding: 22px;
+    box-shadow: red;
+    border: #e20d4b;
+    box-shadow: tomato;
+    background: #2E2E2E;
+    margin: 20px 14px;
+    box-shadow: 0 0 10px;
+    border-radius: 2px;
+}
+
+
+.card1{
+  
+  padding: 40px;
+  border-radius: 5px;
+  margin: 20px auto;
+  text-align: center ;
+}
+
+.card1 li a {
+  color: white;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 200px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 530px;
+  }
+}
+
+.fab fa-instagram-square{
+  color: white;
+}
+
+.list-horizontal{
+  list-style: none;  
+  padding-left: 0px;
+
+}
+
+.list-horizontal li{
+  display: inline;
+  padding: 20px;
+  font-size: 50px;
+  color: white ;
+  text-decoration: none ;
+
+}
+  
+
