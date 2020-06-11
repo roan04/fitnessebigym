@@ -69,7 +69,10 @@ p{
 
 }
 
-
+.card li a {
+	text-decoration: none;
+}
+	
 
 
 
